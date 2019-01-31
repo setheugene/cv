@@ -141,3 +141,13 @@ a:active {
     padding: 0;
     /* margin-bottom: 10px; */
   }
+
+
+  @media only screen and (max-width: 768px) {
+    #sidebar {
+      height: auto;
+      padding-top: 45px;
+      background-image: none;
+     position: relative;
+    } 
+  }
