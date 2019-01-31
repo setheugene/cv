@@ -21,6 +21,7 @@ body {
 
 .col {
   flex-basis: auto;
+  flex-grow: 0;
 }
 #me {
     border-radius: 1%;
@@ -31,37 +32,55 @@ body {
 .name {
     text-align: center;
     font-size: 35px;
+    margin: 0;
+}
+
+object {
+  align-content: center;
+  margin: 0 auto;
+}
+
+.text-block {
+  color: black;
+  text-align: center;
+  font-size: 35px;
+  margin: 0;
+}
+
+h6 {
+  margin: 0 0 10px 0;
 }
 
 body, html {
     height: 100%;
   }
 
-  .land {
+.land {
       width: 100%;
       z-index: 0;
   }
 
-  #about {
+#about {
       font-size: 30px;
       color: rgba(255, 255, 255, 0.733);
+      /* margin-bottom: 40px; */
   }
 
-  .btn {
+.btn {
       width: 100%;
       height: 90px;
       font-size: 50px;
   }
 
-  html {
+html {
     scroll-behavior: smooth;
  }
 
-  #sidebar {
-      /* height: 100%; */
+#sidebar {
+      height: 100%;
       padding-top: 45px;
       background-image: url("images/land.jpg");
-      /* position: fixed; */
+      position: fixed;
   }
 
   .hide {
@@ -73,15 +92,36 @@ body, html {
   }
 
   #projects {
-      margin: 10px;
-      align-content: center;
+    width: 50%;
   }
+
+a:link {
+  color:black;
+}
+
+a:visited {
+  color:black;
+}
+
+a:hover {
+  color:black;
+}
+
+a:active {
+  color: #86959A;
+}
 
   .tile {
       padding: 15px;
       align-content: center;
-      /* padding: 10px; */
      
+  }
+
+  #img {
+    border: 1px solid rgba(255, 255, 255, 0.733);
+    border-radius: 1%;
+    border: 1px whitesmoke solid;
+    /* box-shadow: 0 0 10px #000; */
   }
 
   h2 {
@@ -94,7 +134,7 @@ body, html {
     margin: 0 auto;
     width: 50%;
     padding: 0;
-    margin-top: 100px;
+    margin-top: 170px;
   }
 
   .card .card-content{
