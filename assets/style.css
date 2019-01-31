@@ -158,4 +158,8 @@ a:active {
     #projects {
       width: 75%;
     }
+
+    #resume {
+      display: none;
+    }
   }
