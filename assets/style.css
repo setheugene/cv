@@ -150,4 +150,12 @@ a:active {
       background-image: none;
      position: relative;
     } 
+
+    .about {
+      width: 70%;
+    }
+
+    #projects {
+      width: 75%;
+    }
   }
