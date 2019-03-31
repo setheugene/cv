@@ -163,3 +163,8 @@ a:active {
       display: none;
     }
   }
+
+
+  .img {
+    padding: 5px;
+  }
