@@ -10,9 +10,9 @@ $(document).ready(function(){
         $('.carousel.carousel-slider').carousel({
             fullWidth: true,
             // pressed: true,
-            duration: .1,
+            duration: 10,
             shift: 10,
-            numVisible: 5,
+            numVisible: 3,
             indicators: true
         });
     
