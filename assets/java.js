@@ -1,11 +1,12 @@
-$(document).ready(function() {
+
+
+
+$(window).on("load", function() {
+    
+// $("#neon").addClass("flicker");
 
     AOS.init();
     
-$("#about").one("click", function() {
-    console.log("boop");
-    $(".btn").addClass('hide');
-    $("#pabout").addClass('show');
-   
-})
+
+
 })
