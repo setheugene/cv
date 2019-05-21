@@ -193,9 +193,18 @@ a:active {
     margin-top: 170px;
   }
 
-  .card .card-content{
+  .card .card-content {
     padding: 0;
+    width: 100%;
     /* margin-bottom: 10px; */
+  }
+
+  .card {
+    height: 450px;
+  }
+
+  .carousel-cell {
+    width: 100%;
   }
 
 
@@ -212,7 +221,7 @@ a:active {
     }
 
     #projects {
-      width: 75%;
+      width: 100%;
     }
 
     #resume {
@@ -223,4 +232,5 @@ a:active {
 
   .img {
     padding: 5px;
+    
   }
