@@ -116,7 +116,14 @@ body, html {
       z-index: 0;
   }
 
+  .carousel {
+    height: 30%;
+  }
+
+
+
 #about {
+  font-family: 'Ubuntu', sans-serif;
       font-size: 30px;
       color: rgba(255, 255, 255, 0.733);
       /* margin-bottom: 40px; */
