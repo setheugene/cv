@@ -200,7 +200,22 @@ a:active {
   }
 
   .card {
-    height: 450px;
+    height: 100%;
+  }
+
+ .logos {
+   width: 70%;
+   margin-left: 0;
+   align-content: center;
+ }
+
+ .row .col .s3 {
+   margin-right: auto;
+ }
+
+
+  .border {
+    content: url("../assets/images/border.png");
   }
 
   .carousel-cell {
