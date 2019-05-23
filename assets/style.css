@@ -146,6 +146,9 @@ html {
       position: fixed;
   }
 
+.current {
+  width: 40%;
+}
 
   #projects {
     width: 50%;
