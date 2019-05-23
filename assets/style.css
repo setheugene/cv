@@ -236,7 +236,7 @@ a:active {
     }
 
     #neon {
-      width: 75%;
+      display: none;
     }
 
     .about {
