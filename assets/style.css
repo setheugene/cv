@@ -190,9 +190,6 @@ a:active {
     color: rgba(255, 255, 255, 0.733);
   }
   
-.caro-link {
-  color: rgba(255, 255, 255, 0.733);
-}
 
   .about {
     margin: 0 auto;
@@ -206,6 +203,10 @@ a:active {
     width: 100%;
     /* margin-bottom: 10px; */
   }
+
+.hide {
+  display: none;
+}
 
   .card {
     height: 100%;
